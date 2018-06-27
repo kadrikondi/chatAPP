@@ -1,0 +1,50 @@
+<marquee behavior="" direction=""><h1 class="alert alert-success">Welcome {{user}}</h1>
+</marquee>
+ <div class="container">
+ <div class="row">
+     <div class="col-md-8 col-lg-8 col-sm-8 col-xm-12">
+         <div id="error"></div>
+      <div id='userformwrap'>
+          <h2>Create username</h2>
+          <form id="userform" action="/" method="post">
+          <div class="form-group">
+          <input type="text" name="username" id="username" class="form-control" placeholder="username">
+          </div> <br>
+          <button type="submit" class="btn btn-default">Submit</button>         
+          </form>
+          </div>
+          
+          <div id="mainwrap">
+            <h2>Speak Your mind</h2>
+            <form action="" id="chatform">
+                <div class="form-group">
+                <textarea type="textarea" cols="12" rows="5" id ="chatinput" name="body" placeholder="Say something..." class="form-control"></textarea>
+                </div> <br>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+
+          </div>
+          <br>
+          <br>
+          <br>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-4 col-xm-12">
+              <h3>Users</h3>
+              <ul class="list-group">
+                  <div id="users"></div>
+                  
+              </ul>
+          </div>
+      
+
+    
+
+ 
+
+
+
+ </div>
+
+
+
+</div>
